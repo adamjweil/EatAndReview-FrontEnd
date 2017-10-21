@@ -10,7 +10,8 @@ class Restaurant extends React.Component {
   }
 
   componentDidMount(){
-    fetch('https://adams-eatandreview.herokuapp.com/restaurants')
+    // fetch('https://adams-eatandreview.herokuapp.com/restaurants')
+    fetch('https://localhost:3001/restaurants')
     .then(function(response) {
       return response.json();
     })
